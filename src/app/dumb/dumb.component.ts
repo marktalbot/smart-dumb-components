@@ -9,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DumbComponent implements OnInit {
 
+    // @TODO: note: as per XB; dumb component should never have anything
+    // injected into the constructor
     constructor() { }
 
     ngOnInit() {

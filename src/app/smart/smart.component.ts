@@ -14,6 +14,8 @@ export class SmartComponent implements OnInit {
     // people: [];
     people: any;
 
+    // @TODO create users respository (that gets mock data)
+    // @TODO Inject users repositor using DI
   constructor() {
       this.people = ['Tamara', 'Ingmar'];
   }
